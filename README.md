@@ -48,10 +48,30 @@
 
 ## Как подставлять
 
-Podkop и его форки и переделки вроде Tachyon — берите `russia-block-podkop.lst`.
+Ссылка ниже копируется целиком: это адрес самого файла, его можно вставить в настройки роутера.
 
-Клиент тянет большой список доменов — берите `russia-block-domains.lst`.
+Podkop и его форки и переделки вроде Tachyon — краткий список доменов:
 
-Клиент умеет только маршруты — берите `russia-block-ipv4.lst`. IPv6 подключайте отдельным файлом `russia-block-ipv6.lst`, если он вам нужен.
+```
+https://raw.githubusercontent.com/communism420/allow-domains-plus/main/russia-block-podkop.lst
+```
+
+Клиент тянет большой список доменов:
+
+```
+https://raw.githubusercontent.com/communism420/allow-domains-plus/main/russia-block-domains.lst
+```
+
+Клиент умеет только маршруты — IPv4:
+
+```
+https://raw.githubusercontent.com/communism420/allow-domains-plus/main/russia-block-ipv4.lst
+```
+
+IPv6, если он нужен, отдельным файлом:
+
+```
+https://raw.githubusercontent.com/communism420/allow-domains-plus/main/russia-block-ipv6.lst
+```
 
 Не подставляйте эти файлы вместо `0.0.0.0/0`. Это не полный туннель и не список «запретить всё».
