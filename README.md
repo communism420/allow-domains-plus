@@ -12,9 +12,9 @@
 
 | Файл | Строк | Что внутри |
 | --- | ---: | --- |
-| [russia-block-domains.lst](russia-block-domains.lst) | 118854 | полный список доменов, по одному на строку |
-| [russia-block-podkop.lst](russia-block-podkop.lst) | 8689 | краткий список доменов для Podkop |
-| [russia-block-ipv4.lst](russia-block-ipv4.lst) | 19646 | адреса и подсети IPv4 |
+| [russia-block-domains.lst](russia-block-domains.lst) | 118855 | полный список доменов, по одному на строку |
+| [russia-block-podkop.lst](russia-block-podkop.lst) | 8690 | краткий список доменов для Podkop |
+| [russia-block-ipv4.lst](russia-block-ipv4.lst) | 19677 | адреса и подсети IPv4 |
 | [russia-block-ipv6.lst](russia-block-ipv6.lst) | 3445 | адреса и подсети IPv6 |
 
 [russia-block-podkop.lst](russia-block-podkop.lst) — краткая версия доменов. Она для [Podkop](https://github.com/itdoginfo/podkop) и его форков и переделок вроде [Tachyon](https://github.com/Dushnilin/tachyon), которые не тянут большие списки доменов. В ней имена из подборок сервисов и категорий, а также популярные заблокированные площадки и их зеркала, в первую очередь взрослые сайты. Размер оставлен таким, чтобы sing-box на роутере собрал одно правило и не завис: полный реестр из ста с лишним тысяч имён в одно правило не помещается. Российских сервисов из списка исключений там нет: Яндекс, VK, Mail.ru, Одноклассники, Wildberries, Ozon, банки, Госуслуги, МТС, DNS, Ситилинк, Хабр. Полный реестр остаётся в `russia-block-domains.lst`, уже без этих же доменов.
