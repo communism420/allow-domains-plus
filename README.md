@@ -13,7 +13,7 @@
 | Файл | Строк | Что внутри |
 | --- | ---: | --- |
 | [russia-block-domains.lst](russia-block-domains.lst) | 1797306 | полный список доменов, по одному на строку |
-| [russia-block-podkop.lst](russia-block-podkop.lst) | 8973 | краткий список доменов для Podkop |
+| [russia-block-podkop.lst](russia-block-podkop.lst) | 8974 | краткий список доменов для Podkop |
 | [russia-block-ipv4.lst](russia-block-ipv4.lst) | 19677 | адреса и подсети IPv4 |
 | [russia-block-ipv6.lst](russia-block-ipv6.lst) | 3445 | адреса и подсети IPv6 |
 
